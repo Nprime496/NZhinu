@@ -40,7 +40,7 @@ public class Parcours
                 {
                     positiony++;
                 }
-                else if (ORIENTATIONS.get(curorientation).equals("S") && positiony<maxpositiony)
+                else if (ORIENTATIONS.get(curorientation).equals("S") && positiony>0)
                 {
                     positiony--;
                 }
@@ -48,7 +48,7 @@ public class Parcours
                 {
                     positionx++;
                 }
-                else if (ORIENTATIONS.get(curorientation).equals("W") && positionx<maxpositionx)
+                else if (ORIENTATIONS.get(curorientation).equals("W") && positionx>0)
                 {
                     positionx--;
                 }
